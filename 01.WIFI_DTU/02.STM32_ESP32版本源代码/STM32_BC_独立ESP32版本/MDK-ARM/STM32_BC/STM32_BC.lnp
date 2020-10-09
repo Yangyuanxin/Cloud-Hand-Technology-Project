@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"stm32_bc\startup_stm32f103xb.o"
+"stm32_bc\main.o"
+"stm32_bc\stm32f1xx_it.o"
+"stm32_bc\stm32f1xx_hal_msp.o"
+"stm32_bc\stm32f1xx_hal_gpio_ex.o"
+"stm32_bc\stm32f1xx_hal_tim.o"
+"stm32_bc\stm32f1xx_hal_tim_ex.o"
+"stm32_bc\stm32f1xx_hal_uart.o"
+"stm32_bc\stm32f1xx_hal.o"
+"stm32_bc\stm32f1xx_hal_rcc.o"
+"stm32_bc\stm32f1xx_hal_rcc_ex.o"
+"stm32_bc\stm32f1xx_hal_gpio.o"
+"stm32_bc\stm32f1xx_hal_dma.o"
+"stm32_bc\stm32f1xx_hal_cortex.o"
+"stm32_bc\stm32f1xx_hal_pwr.o"
+"stm32_bc\stm32f1xx_hal_flash.o"
+"stm32_bc\stm32f1xx_hal_flash_ex.o"
+"stm32_bc\system_stm32f1xx.o"
+"stm32_bc\key_dispose.o"
+"stm32_bc\dtu_sys_dis.o"
+"stm32_bc\led_dis.o"
+"stm32_bc\upper_config.o"
+"stm32_bc\flash_dis.o"
+--library_type=microlib --strict --scatter "STM32_BC\STM32_BC.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32_BC.map" -o STM32_BC\STM32_BC.axf

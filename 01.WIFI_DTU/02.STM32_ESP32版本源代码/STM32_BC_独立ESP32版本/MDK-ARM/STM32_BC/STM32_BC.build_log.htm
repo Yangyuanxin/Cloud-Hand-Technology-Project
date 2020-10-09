@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: yangyuanxin AutoBVT, Microsoft, LIC=9N0Z9-4MNIT-59MGZ-JS46S-JGC96-ZU7QF
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.28.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.36.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+D:\PLY_WIFI_DTU\STM32_BC_∂¿¡¢ESP32∞Ê±æ\MDK-ARM\STM32_BC.uvprojx
+Project File Date:  05/07/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'STM32_BC'
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_msp.c...
+compiling DTU_SYS_Dis.c...
+..\APP\APP.C\DTU_SYS_Dis.c(474): warning:  #111-D: statement is unreachable
+              break;
+..\APP\APP.C\DTU_SYS_Dis.c(478): warning:  #111-D: statement is unreachable
+              break;
+..\APP\APP.C\DTU_SYS_Dis.c: 2 warnings, 0 errors
+compiling main.c...
+../Src/main.c(206): warning:  #177-D: function "Uart1_Dataecho"  was declared but never referenced
+  void   Uart1_Dataecho(void)
+../Src/main.c(220): warning:  #177-D: function "Uart2_Dataecho"  was declared but never referenced
+  void   Uart2_Dataecho(void)
+../Src/main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=23868 RO-data=292 RW-data=408 ZI-data=3120  
+FromELF: creating hex file...
+"STM32_BC\STM32_BC.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM.CMSIS.5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM32_BC
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
